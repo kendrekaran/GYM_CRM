@@ -8,37 +8,37 @@ import { useState, useEffect } from "react"
 // Navigation menu items data
 const navigationItems = [
   {
-    href: "/dashboard",
+    href: "/",
     icon: Home,
     label: "Overview",
   },
   {
-    href: "/dashboard/add-users",
+    href: "/add-users",
     icon: UserPlus,
     label: "Add Users",
   },
   {
-    href: "/dashboard/manage-users",
+    href: "/manage-users",
     icon: Users,
     label: "Manage Users",
   },
   {
-    href: "/dashboard/attendance",
+    href: "/attendance",
     icon: Calendar,
     label: "Attendance",
   },
   {
-    href: "/dashboard/fees",
+    href: "/fees",
     icon: CreditCard,
     label: "Fees",
   },
   {
-    href: "/dashboard/membership",
+    href: "/membership",
     icon: BadgeDollarSign,
     label: "Membership",
   },
   {
-    href: "/dashboard/pricing",
+    href: "/pricing",
     icon: FileText,
     label: "Pricing",
   },
